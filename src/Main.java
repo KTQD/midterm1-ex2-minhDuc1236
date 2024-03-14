@@ -10,7 +10,7 @@ public class Main {
 
         String[] words = sentence.split(" ");
         for (String word : words) {
-            if (!word.isEmpty()) { // Loại bỏ các từ rỗng
+            if (!word.isEmpty()) { 
                 wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
             }
         }
